@@ -1,0 +1,17 @@
+#忽略编译生成的文件
+build/
+
+#忽略测试数据集
+data/
+
+# 忽略常见编辑器配置文件
+.vscode/
+.idea/
+
+# 忽略操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 忽略日志文件
+*.log
