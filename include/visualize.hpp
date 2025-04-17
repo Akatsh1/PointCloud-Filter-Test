@@ -204,6 +204,9 @@ inline void visualizeCloudsLinked(
     while (true) {
         // 任意窗口关闭则全部退出
         bool anyStopped = false;
+        for (auto& status : viewers) {
+            std::cout<<status->wasStopped()<<std::endl;
+        }
         for (auto& v : viewers) {
             if (v->wasStopped()) {
                 anyStopped = true;
